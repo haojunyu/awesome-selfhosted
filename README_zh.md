@@ -113,11 +113,11 @@
 
 ### 分析
 
-**[`^        回到顶部        ^`](#awesome-selfhosted)**
+**[`^        回到顶部        ^`](#awesome-自托管)**
 
 [Analytics](https://en.wikipedia.org/wiki/Analytics) 是对数据或统计数据进行系统的计算分析。它用于发现、解释和传达数据中有意义的模式。
 
-_Related: [Personal Dashboards](#personal-dashboards)_
+_相关: [个人面板](#个人面板)_
 
 - [Ackee](https://ackee.electerious.com) - Self-hosted analytics tool for those who care about privacy. ([Demo](http://demo.ackee.electerious.com), [Source Code](https://github.com/electerious/Ackee)) `MIT` `Nodejs`
 - [AWStats](http://www.awstats.org/) - Generate statistics from web, streaming, ftp or mail server logfiles. ([Source Code](https://github.com/eldy/awstats)) `GPL-3.0` `Perl`
@@ -1518,9 +1518,9 @@ A [pastebin](https://en.wikipedia.org/wiki/Pastebin) is a type of online content
 - [Wastebin](https://github.com/matze/wastebin) - Lightweight, minimal and fast pastebin with an SQLite backend. ([Demo](https://bin.bloerg.net)) `MIT` `Rust`
 
 
-### Personal Dashboards
+### 个人面板
 
-**[`^        back to top        ^`](#awesome-selfhosted)**
+**[`^        回到顶部        ^`](#awesome-自托管)**
 
 Dashboards for accessing information and applications.
 
