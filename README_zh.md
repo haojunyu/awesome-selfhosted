@@ -120,25 +120,25 @@
 _相关: [个人面板](#个人面板)_
 
 - [Ackee](https://ackee.electerious.com) - 自托管的分析工具，为那些关心隐私的人提供服务。
-([样例](http://demo.ackee.electerious.com), [源码](https://github.com/electerious/Ackee)) `MIT` `Nodejs` [:+1::+1::+1:]
+([样例](http://demo.ackee.electerious.com), [源码](https://github.com/electerious/Ackee)) `MIT` `Nodejs` [:+1::+1::+1: 适合快速接入]
 - [AWStats](http://www.awstats.org/) - 从网站，流媒体，FTP或邮件服务日志文件生成统计数据 ([源码](https://github.com/eldy/awstats)) `GPL-3.0` `Perl` 
-- [Chartbrew](https://chartbrew.com) - Web application that can connect directly to databases and APIs and use the data to create beautiful charts. ([样例](https://app.chartbrew.com/live-demo), [源码](https://github.com/chartbrew/chartbrew)) `MIT` `Nodejs`
-- [Countly Community Edition](https://count.ly) - Real time mobile and web analytics, crash reporting and push notifications platform. ([源码](https://github.com/countly)) `AGPL-3.0` `Nodejs`
-- [Druid](http://druid.io/) - Distributed, column-oriented, real-time analytics data store. ([源码](https://github.com/druid-io/druid)) `Apache-2.0` `Java`
-- [EDA](https://eda.jortilles.com/en/jortilles-english/) - Web application for data analysis and visualization. ([源码](https://github.com/jortilles/EDA)) `Apache-2.0` `Nodejs`
-- [GoAccess](http://goaccess.io/) - Real-time web log analyzer and interactive viewer that runs in a terminal. ([源码](https://github.com/allinurl/goaccess)) `GPL-2.0` `C`
-- [GoatCounter](https://www.goatcounter.com) - Easy web statistics without tracking of personal data. ([源码](https://github.com/zgoat/goatcounter)) `EUPL-1.2` `Go`
-- [Metabase](https://metabase.com/) - Easy, open-source way for everyone in your company to ask questions and learn from data. ([源码](https://github.com/metabase/metabase)) `AGPL-3.0` `Java`
-- [Offen](https://www.offen.dev/) - Fair, lightweight and open web analytics tool. Gain insights while your users have full access to their data. ([样例](https://www.offen.dev/try-demo/), [源码](https://github.com/offen/offen)) `Apache-2.0` `Go/Docker`
-- [Open Web Analytics](http://www.openwebanalytics.com/) - Web analytics framework that lets you stay in control of how you instrument and analyze the use of your websites and applications. ([源码](https://github.com/padams/Open-Web-Analytics)) `GPL-2.0` `PHP`
-- [Plausible Analytics](https://plausible.io/) - Simple, open-source, lightweight (< 1 KB) and privacy-friendly web analytics. ([源码](https://github.com/plausible/analytics/)) `MIT` `Elixir`
-- [PostHog](https://posthog.com) - Product analytics, session recording, feature flagging and a/b testing that you can self-host. Alternative to Mixpanel/Amplitude/Heap/HotJar/Optimizely. ([源码](https://github.com/posthog/posthog)) `MIT` `Python`
-- [Redash](http://redash.io) - Connect and query your data sources, build dashboards to visualize data and share them with your company. ([样例](https://demo.redash.io), [源码](https://github.com/getredash/redash)) `BSD-2-Clause` `Docker`
-- [RudderStack](https://rudderstack.com/) - Collect, unify, transform, and store your customer data, and route it to a wide range of common, popular marketing, sales, and product tools. alternative to Segment. ([源码](https://github.com/rudderlabs/rudder-server/)) `AGPL-3.0` `Docker/K8S/Go/Nodejs`
-- [Shynet](https://github.com/milesmcc/shynet) - Modern, privacy-friendly, and detailed web analytics that works without cookies or JS. `Apache-2.0` `Python`
-- [Socioboard](https://github.com/socioboard/Socioboard-4.0) `⚠` - Social media management, analytics, and reporting platform supporting nine social media networks out-of-the-box. `GPL-3.0` `Nodejs`
-- [Superset](http://superset.apache.org/) - Mmodern data exploration and visualization platform. ([源码](https://github.com/apache/superset)) `Apache-2.0` `Python`
-- [Umami](https://umami.is/) - Simple, fast, privacy-focused alternative to Google Analytics. ([样例](https://app.umami.is/share/8rmHaheU/umami.is), [源码](https://github.com/umami-software/umami)) `MIT` `Nodejs`
+- [Chartbrew](https://chartbrew.com) - 能够直接连接数据库和调用 API 的网页应用，并使用其中的数据来创建漂亮的图标。 ([样例](https://app.chartbrew.com/live-demo), [源码](https://github.com/chartbrew/chartbrew)) `MIT` `Nodejs` [:+1: 图表展示]
+- [Countly Community Edition](https://count.ly) - Countly 是一个产品级的分析平台，可帮助团队跟踪、分析并采取行动来应对用户在移动、Web和桌面应用程序上的行为和操作。 ([源码](https://github.com/countly)) `AGPL-3.0` `Nodejs` [:+1::+1::+1: 提供服务端和客户端，适合二次开发]
+- [Druid](http://druid.io/) - 一个分布式的、支持实时多维 OLAP 分析、列式存储的数据处理系统。 ([源码](https://github.com/druid-io/druid)) `Apache-2.0` `Java` [:+1::+1::+1: 和Flink配合使用，更高的定制化]
+- [EDA](https://eda.jortilles.com/en/jortilles-english/) - 最早的分析工具. ([源码](https://github.com/jortilles/EDA)) `Apache-2.0` `Nodejs`
+- [GoAccess](http://goaccess.io/) - 一个开源的实时 Web 日志分析工具和交互式查看器，可在 *nix 系统的终端或浏览器中运行。 ([源码](https://github.com/allinurl/goaccess)) `GPL-2.0` `C` [:+1::+1:]
+- [GoatCounter](https://www.goatcounter.com) - 一个开源的 Web 分析平台，可作为托管服务（非商业用途免费）或自托管应用程序使用。它旨在提供易于使用且具有意义的隐私友好型 Web 分析，作为 Google Analytics 或 Matomo 的替代品。([源码](https://github.com/zgoat/goatcounter)) `EUPL-1.2` `Go` [:+1::+1:]
+- [Metabase](https://metabase.com/) - 为公司中的每个人提供商业智能和分析的最简单、最快速的方式。 ([源码](https://github.com/metabase/metabase)) `AGPL-3.0` `Java`
+- [Offen](https://www.offen.dev/) - 公平，轻量，开源的网页分析工具。当用户对自己的数据完全掌控时就能获得想法。([样例](https://www.offen.dev/try-demo/), [源码](https://github.com/offen/offen)) `Apache-2.0` `Go/Docker`
+- [Open Web Analytics](http://www.openwebanalytics.com/) - 一个免费开源的Web分析框架，它让您能够控制如何检测和分析您的网站和应用程序的使用情况。 ([源码](https://github.com/padams/Open-Web-Analytics)) `GPL-2.0` `PHP`
+- [Plausible Analytics](https://plausible.io/) - 简单、开源、轻量级（<1 KB）且注重隐私的Web分析工具，是Google Analytics的一种替代选择。 ([源码](https://github.com/plausible/analytics/)) `MIT` `Elixir`
+- [PostHog](https://posthog.com) - 提供开源的产品分析、会话录制、功能标记和A/B测试服务，您可以自行托管使用。 是 Mixpanel/Amplitude/Heap/HotJar/Optimizely 的一种替代选择. ([源码](https://github.com/posthog/posthog)) `MIT` `Python` [:+1::+1::+1: A/B实验，会话录制是亮点]
+- [Redash](http://redash.io) - 连接并查询数据源，构建仪表板可视化数据，并与公司共享。 ([样例](https://demo.redash.io), [源码](https://github.com/getredash/redash)) `BSD-2-Clause` `Docker`
+- [RudderStack](https://rudderstack.com/) - 收集、统一、转换和存储客户数据，并将其路由到各种常见、流行的营销、销售和产品工具，是Segment的替代选择。 ([源码](https://github.com/rudderlabs/rudder-server/)) `AGPL-3.0` `Docker/K8S/Go/Nodejs`
+- [Shynet](https://github.com/milesmcc/shynet) - 现代、注重隐私且详细的Web分析工具，可在不使用Cookies或JS的情况下运行。 `Apache-2.0` `Python`
+- [Socioboard](https://github.com/socioboard/Socioboard-4.0) `⚠` - 社交媒体管理、分析和报告平台，可直接支持9个社交媒体网络。 `GPL-3.0` `Nodejs`
+- [Superset](http://superset.apache.org/) - 一款现代化的数据探索和可视化平台。 ([源码](https://github.com/apache/superset)) `Apache-2.0` `Python` 
+- [Umami](https://umami.is/) - 一个简单、快速、注重隐私的替代Google Analytics的选择。 ([样例](https://app.umami.is/share/8rmHaheU/umami.is), [源码](https://github.com/umami-software/umami)) `MIT` `Nodejs`
 
 
 ### Archiving and Digital Preservation (DP)
